@@ -10,4 +10,4 @@ RUN yum update -y && yum -y install java-1.7.0-openjdk-devel && yum clean all
 USER caos
 
 ENV JAVA_HOME /usr/lib/jvm/java
-ENV JAVA_OPTS="$JAVA_OPTS -XX:MaxPermSize=512m -Duser.language=pt -Duser.country=BR -Duser.timezone=America/Belem -Djava.net.preferIPv4Stack=true"
+# ENV JAVA_OPTS="$JAVA_OPTS -XX:MaxPermSize=512m -Duser.language=pt -Duser.country=BR -Duser.timezone=America/Belem -Djava.net.preferIPv4Stack=true"
